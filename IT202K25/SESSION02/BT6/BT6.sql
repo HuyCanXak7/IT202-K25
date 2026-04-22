@@ -1,0 +1,20 @@
+CREATE DATABASE dtb_ss02;
+USE dtb_ss02;
+
+CREATE TABLE BOOK (
+    MaSach CHAR(5) PRIMARY KEY,                 
+    TenSach VARCHAR(200) NOT NULL,              
+    SoLuong INT NOT NULL CHECK (SoLuong >= 0),   
+    GiaThue DECIMAL(10,2) NOT NULL DEFAULT 5000  
+);
+
+ALTER TABLE BOOK
+ADD COLUMN NgayNhap DATE;   
+
+CREATE TABLE BORROW_BOOKS (
+    MaMuon INT PRIMARY KEY AUTO_INCREMENT,   
+    MaSach CHAR(5) NOT NULL,                
+    NgayMuon DATE NOT NULL DEFAULT (CURRENT_DATE), 
+    FOREIGN KEY (MaSach) REFERENCES BOOK(MaSach)
+);
+
