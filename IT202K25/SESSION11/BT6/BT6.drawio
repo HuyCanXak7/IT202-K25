@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="173V-Qog3ZcaYhsKecT9">
+    <mxGraphModel dx="1369" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="80" width="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Input: Patient_ID, Medicine_ID, Quantity, Discount_Code" vertex="1">
+          <mxGeometry height="60" width="120" x="190" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-4" edge="1" parent="1" source="Yt2v3xSaTLqa4pRm1rPP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-9" edge="1" parent="1" source="Yt2v3xSaTLqa4pRm1rPP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Kho đủ thuốc?" vertex="1">
+          <mxGeometry height="80" width="80" x="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="480" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-7" edge="1" parent="1" source="Yt2v3xSaTLqa4pRm1rPP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Thất bại: Kho không đủ thuốc" vertex="1">
+          <mxGeometry height="80" width="80" x="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="END" vertex="1">
+          <mxGeometry height="30" width="60" x="700" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="420" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CONTINUE" vertex="1">
+          <mxGeometry height="30" width="60" x="340" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-13" edge="1" parent="1" source="Yt2v3xSaTLqa4pRm1rPP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Trừ kho" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-16" edge="1" parent="1" source="Yt2v3xSaTLqa4pRm1rPP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Yt2v3xSaTLqa4pRm1rPP-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Tính thành tiền" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-17" edge="1" parent="1" source="Yt2v3xSaTLqa4pRm1rPP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-20" edge="1" parent="1" source="Yt2v3xSaTLqa4pRm1rPP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-15" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Discount_Code = NV-RIKKEI?" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="490" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="END" vertex="1">
+          <mxGeometry height="30" width="60" x="550" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="YES" vertex="1">
+          <mxGeometry height="30" width="60" x="420" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Giảm 50%" vertex="1">
+          <mxGeometry height="30" width="60" x="354" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-24" edge="1" parent="1" source="Yt2v3xSaTLqa4pRm1rPP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cộng dồn vào công nợ bệnh nhân" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-27" edge="1" parent="1" source="Yt2v3xSaTLqa4pRm1rPP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Yt2v3xSaTLqa4pRm1rPP-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Thành công: Đã xử lý đơn thuốc" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="Yt2v3xSaTLqa4pRm1rPP-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="END" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="800" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

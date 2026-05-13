@@ -1,0 +1,154 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="MpyCrJbaL0XXPiwj9Qt2">
+    <mxGraphModel dx="1369" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-4" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VOoRVErbr0a4TVBFY1pu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="80" width="120" x="40" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-5" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VOoRVErbr0a4TVBFY1pu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Input: Patient_ID, Dept_ID" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-7" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VOoRVErbr0a4TVBFY1pu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-9" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Status = Completed?" vertex="1">
+          <mxGeometry height="100" width="130" x="490" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-10" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Output: Error - Patient discharged" vertex="1">
+          <mxGeometry height="60" width="120" x="770" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="yes" vertex="1">
+          <mxGeometry height="30" width="60" x="660" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="end" vertex="1">
+          <mxGeometry height="30" width="60" x="950" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="no" vertex="1">
+          <mxGeometry height="30" width="60" x="550" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="continue" vertex="1">
+          <mxGeometry height="30" width="60" x="490" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-15" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-20" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Dept_ID exists?" vertex="1">
+          <mxGeometry height="80" width="80" x="515" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="no" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-18" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Output: Error - Department not found" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="end" vertex="1">
+          <mxGeometry height="30" width="60" x="970" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="yes" vertex="1">
+          <mxGeometry height="30" width="60" x="490" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="continue" vertex="1">
+          <mxGeometry height="30" width="60" x="580" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-24" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Call FindEmptyBed(Dept_ID)" vertex="1">
+          <mxGeometry height="80" width="160" x="480" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-26" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-31" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-41" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VOoRVErbr0a4TVBFY1pu-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-42" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="VOoRVErbr0a4TVBFY1pu-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-25" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Empty bed found?" vertex="1">
+          <mxGeometry height="80" width="80" x="520" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="no" vertex="1">
+          <mxGeometry height="30" width="60" x="650" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-29" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Output: Error - Dept full" vertex="1">
+          <mxGeometry height="60" width="120" x="770" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="end" vertex="1">
+          <mxGeometry height="30" width="60" x="980" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="yes" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="continue" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Release old bed" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-44" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VOoRVErbr0a4TVBFY1pu-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Assign patient to new bed" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-46" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="VOoRVErbr0a4TVBFY1pu-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ock new bed" vertex="1">
+          <mxGeometry height="60" width="120" x="670" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="end" vertex="1">
+          <mxGeometry height="80" width="120" x="495" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="VOoRVErbr0a4TVBFY1pu-45" edge="1" parent="1" source="VOoRVErbr0a4TVBFY1pu-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" target="VOoRVErbr0a4TVBFY1pu-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
